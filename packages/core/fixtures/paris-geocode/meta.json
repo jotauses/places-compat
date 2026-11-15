@@ -1,0 +1,7 @@
+{
+  "source": "https://developers.google.com/maps/documentation/places/web-service/legacy/autocomplete",
+  "license": "CC-BY-4.0 (documentation content; code samples Apache-2.0)",
+  "copyright": "Google LLC",
+  "derived": "new",
+  "notes": "Legacy half copied from the example response for input=Paris&types=geocode (five predictions, status OK). The reference key is dropped because AutocompletePrediction in @types/google.maps 3.66.10 has no such field. The new half is derived with toLegacyPrediction. The documented terms equal the terms synthesised by splitting on \", \". No details: this slug carries predictions only."
+}

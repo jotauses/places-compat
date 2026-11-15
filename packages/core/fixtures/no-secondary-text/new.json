@@ -1,0 +1,33 @@
+{
+  "suggestions": [
+    {
+      "placePrediction": {
+        "place": "places/synthetic-no-secondary-text",
+        "placeId": "synthetic-no-secondary-text",
+        "text": {
+          "text": "Europe",
+          "matches": [
+            {
+              "endOffset": 4
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "Europe",
+            "matches": [
+              {
+                "endOffset": 4
+              }
+            ]
+          }
+        },
+        "types": [
+          "continent",
+          "political",
+          "geocode"
+        ]
+      }
+    }
+  ]
+}

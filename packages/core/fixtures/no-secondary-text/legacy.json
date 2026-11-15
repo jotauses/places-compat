@@ -1,0 +1,36 @@
+{
+  "predictions": [
+    {
+      "description": "Europe",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "synthetic-no-secondary-text",
+      "structured_formatting": {
+        "main_text": "Europe",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": ""
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Europe"
+        }
+      ],
+      "types": [
+        "continent",
+        "political",
+        "geocode"
+      ]
+    }
+  ],
+  "status": "OK"
+}

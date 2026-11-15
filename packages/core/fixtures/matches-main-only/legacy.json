@@ -1,0 +1,53 @@
+{
+  "predictions": [
+    {
+      "description": "Pizza Place, Main Street, Springfield",
+      "matched_substrings": [
+        {
+          "length": 5,
+          "offset": 0
+        },
+        {
+          "length": 3,
+          "offset": 6
+        }
+      ],
+      "place_id": "synthetic-matches-main-only",
+      "structured_formatting": {
+        "main_text": "Pizza Place",
+        "main_text_matched_substrings": [
+          {
+            "length": 5,
+            "offset": 0
+          },
+          {
+            "length": 3,
+            "offset": 6
+          }
+        ],
+        "secondary_text": "Main Street, Springfield"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Pizza Place"
+        },
+        {
+          "offset": 13,
+          "value": "Main Street"
+        },
+        {
+          "offset": 26,
+          "value": "Springfield"
+        }
+      ],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    }
+  ],
+  "status": "OK"
+}

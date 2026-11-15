@@ -1,0 +1,164 @@
+{
+  "suggestions": [
+    {
+      "placePrediction": {
+        "place": "places/ChIJD7fiBh9u5kcRYJSMaMOCCwQ",
+        "placeId": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ",
+        "text": {
+          "text": "Paris, France",
+          "matches": [
+            {
+              "endOffset": 5
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "Paris",
+            "matches": [
+              {
+                "endOffset": 5
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "France"
+          }
+        },
+        "types": [
+          "locality",
+          "political",
+          "geocode"
+        ]
+      }
+    },
+    {
+      "placePrediction": {
+        "place": "places/ChIJmysnFgZYSoYRSfPTL2YJuck",
+        "placeId": "ChIJmysnFgZYSoYRSfPTL2YJuck",
+        "text": {
+          "text": "Paris, TX, USA",
+          "matches": [
+            {
+              "endOffset": 5
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "Paris",
+            "matches": [
+              {
+                "endOffset": 5
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "TX, USA"
+          }
+        },
+        "types": [
+          "locality",
+          "political",
+          "geocode"
+        ]
+      }
+    },
+    {
+      "placePrediction": {
+        "place": "places/ChIJ4zHP-Sije4gRBDEsVxunOWg",
+        "placeId": "ChIJ4zHP-Sije4gRBDEsVxunOWg",
+        "text": {
+          "text": "Paris, TN, USA",
+          "matches": [
+            {
+              "endOffset": 5
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "Paris",
+            "matches": [
+              {
+                "endOffset": 5
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "TN, USA"
+          }
+        },
+        "types": [
+          "locality",
+          "political",
+          "geocode"
+        ]
+      }
+    },
+    {
+      "placePrediction": {
+        "place": "places/ChIJsamfQbVtLIgR-X18G75Hyi0",
+        "placeId": "ChIJsamfQbVtLIgR-X18G75Hyi0",
+        "text": {
+          "text": "Paris, Brant, ON, Canada",
+          "matches": [
+            {
+              "endOffset": 5
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "Paris",
+            "matches": [
+              {
+                "endOffset": 5
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "Brant, ON, Canada"
+          }
+        },
+        "types": [
+          "neighborhood",
+          "political",
+          "geocode"
+        ]
+      }
+    },
+    {
+      "placePrediction": {
+        "place": "places/ChIJsU7_xMfKQ4gReI89RJn0-RQ",
+        "placeId": "ChIJsU7_xMfKQ4gReI89RJn0-RQ",
+        "text": {
+          "text": "Paris, KY, USA",
+          "matches": [
+            {
+              "endOffset": 5
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "Paris",
+            "matches": [
+              {
+                "endOffset": 5
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "KY, USA"
+          }
+        },
+        "types": [
+          "locality",
+          "political",
+          "geocode"
+        ]
+      }
+    }
+  ]
+}

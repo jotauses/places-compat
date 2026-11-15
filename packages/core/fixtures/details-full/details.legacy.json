@@ -1,0 +1,126 @@
+{
+  "address_components": [
+    {
+      "long_name": "1",
+      "short_name": "1",
+      "types": [
+        "street_number"
+      ]
+    },
+    {
+      "long_name": "Example Street",
+      "short_name": "Example St",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "long_name": "Sampletown",
+      "short_name": "",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  "adr_address": "<span class=\"street-address\">1 Example St</span>, <span class=\"locality\">Sampletown</span>",
+  "formatted_address": "1 Example St, Sampletown",
+  "geometry": {
+    "location": {
+      "lat": 40.4168,
+      "lng": -3.7038
+    },
+    "viewport": {
+      "south": 40.4154,
+      "west": -3.7052,
+      "north": 40.4182,
+      "east": -3.7024
+    }
+  },
+  "plus_code": {
+    "global_code": "8CGRC78W+PG",
+    "compound_code": "C78W+PG Sampletown"
+  },
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "place_id": "synthetic-details-full",
+  "photos": [
+    {
+      "height": 600,
+      "width": 800,
+      "html_attributions": [
+        "<a href=\"https://example.com/photo-author\">Photo Author</a>",
+        "Anonymous Author"
+      ]
+    }
+  ],
+  "name": "Example Cafe",
+  "business_status": "OPERATIONAL",
+  "utc_offset_minutes": 60,
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://example.com/icons/cafe_pinlet",
+  "opening_hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "hours": 8,
+          "minutes": 0,
+          "time": "0800"
+        },
+        "close": {
+          "day": 1,
+          "hours": 17,
+          "minutes": 30,
+          "time": "1730"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hours": 8,
+          "minutes": 5,
+          "time": "0805"
+        },
+        "close": {
+          "day": 2,
+          "hours": 17,
+          "minutes": 30,
+          "time": "1730"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 8:00 AM - 5:30 PM",
+      "Tuesday: 8:05 AM - 5:30 PM"
+    ]
+  },
+  "price_level": 2,
+  "rating": 4.5,
+  "user_ratings_total": 128,
+  "website": "https://example.com/",
+  "international_phone_number": "+34 910 00 00 00",
+  "formatted_phone_number": "910 00 00 00",
+  "reviews": [
+    {
+      "author_name": "Reviewer One",
+      "author_url": "https://example.com/reviewer-one",
+      "profile_photo_url": "https://example.com/reviewer-one.png",
+      "language": "en",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "Good coffee.",
+      "time": 1714564800
+    }
+  ],
+  "url": "https://maps.example.com/?cid=1",
+  "vicinity": "1 Example St",
+  "html_attributions": [
+    "<a href=\"https://example.com/provider\">Example Provider</a>",
+    "Plain Provider"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "predictions": [
+    {
+      "description": "Example Cafe, 1 Example St, Sampletown",
+      "matched_substrings": [
+        {
+          "length": 7,
+          "offset": 0
+        }
+      ],
+      "place_id": "synthetic-details-full",
+      "structured_formatting": {
+        "main_text": "Example Cafe",
+        "main_text_matched_substrings": [
+          {
+            "length": 7,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "1 Example St, Sampletown"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Example Cafe"
+        },
+        {
+          "offset": 14,
+          "value": "1 Example St"
+        },
+        {
+          "offset": 28,
+          "value": "Sampletown"
+        }
+      ],
+      "types": [
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "distance_meters": 120
+    }
+  ],
+  "status": "OK"
+}

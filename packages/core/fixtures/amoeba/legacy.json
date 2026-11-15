@@ -1,0 +1,103 @@
+{
+  "predictions": [
+    {
+      "description": "Amoeba Music, Haight Street, San Francisco, CA, USA",
+      "matched_substrings": [
+        {
+          "length": 6,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJ5YQQf1GHhYARPKG7WLIaOko",
+      "structured_formatting": {
+        "main_text": "Amoeba Music",
+        "main_text_matched_substrings": [
+          {
+            "length": 6,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Haight Street, San Francisco, CA, USA"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Amoeba Music"
+        },
+        {
+          "offset": 14,
+          "value": "Haight Street"
+        },
+        {
+          "offset": 29,
+          "value": "San Francisco"
+        },
+        {
+          "offset": 44,
+          "value": "CA"
+        },
+        {
+          "offset": 48,
+          "value": "USA"
+        }
+      ],
+      "types": [
+        "electronics_store",
+        "point_of_interest",
+        "store",
+        "establishment",
+        "home_goods_store"
+      ]
+    },
+    {
+      "description": "Amoeba Music, Telegraph Avenue, Berkeley, CA, USA",
+      "matched_substrings": [
+        {
+          "length": 6,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJr7uwwy58hYARBY-e7-QVwqw",
+      "structured_formatting": {
+        "main_text": "Amoeba Music",
+        "main_text_matched_substrings": [
+          {
+            "length": 6,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Telegraph Avenue, Berkeley, CA, USA"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Amoeba Music"
+        },
+        {
+          "offset": 14,
+          "value": "Telegraph Avenue"
+        },
+        {
+          "offset": 32,
+          "value": "Berkeley"
+        },
+        {
+          "offset": 42,
+          "value": "CA"
+        },
+        {
+          "offset": 46,
+          "value": "USA"
+        }
+      ],
+      "types": [
+        "electronics_store",
+        "point_of_interest",
+        "establishment",
+        "home_goods_store",
+        "store"
+      ]
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "Synthetic data written for this project",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Joaquín",
+  "derived": "legacy",
+  "notes": "details.new.json has a value for every mapped legacy field; the legacy half is derived with toLegacyPrediction and toLegacyPlaceResult. JSON cannot hold functions, so details.legacy.json omits opening_hours.isOpen and photos[].getUrl. The prediction carries distanceMeters to cover distance_meters. Addresses, phone numbers and URLs are placeholders."
+}

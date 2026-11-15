@@ -1,0 +1,7 @@
+{
+  "source": "https://developers.google.com/maps/documentation/places/web-service/place-autocomplete",
+  "license": "CC-BY-4.0 (documentation content; code samples Apache-2.0)",
+  "copyright": "Google LLC",
+  "derived": "legacy",
+  "notes": "New half copied from the first \"Amoeba\" example (circle locationBias centred on 37.7749,-122.4194 with radius 5000): the two place predictions shown before the documentation elides the rest. The request is that example expressed as a legacy AutocompletionRequest. The legacy half is derived with toLegacyPrediction, so its terms are synthesised by splitting on \", \". No details: this slug carries predictions only."
+}

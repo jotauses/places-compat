@@ -1,0 +1,7 @@
+{
+  "source": "react-places-autocomplete 7.3.0, src/tests/helpers/testHelpers.js (mockSuggestions)",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2016 Ken Hibino",
+  "derived": "new",
+  "notes": "Legacy half maps the five mockSuggestions back to AutocompletePrediction: placeId to place_id, matchedSubstrings to matched_substrings, formattedSuggestion to structured_formatting. The mocks keep no main_text_matched_substrings, so it repeats the matched_substrings range, which lies inside main_text in all five. The legacy id key is dropped: it is not in @types/google.maps 3.66.10 and the new API cannot produce it. The new half is derived with toLegacyPrediction. The original terms equal the terms synthesised by splitting on \", \". No details."
+}

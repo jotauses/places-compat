@@ -1,0 +1,72 @@
+{
+  "suggestions": [
+    {
+      "placePrediction": {
+        "place": "places/ChIJ5YQQf1GHhYARPKG7WLIaOko",
+        "placeId": "ChIJ5YQQf1GHhYARPKG7WLIaOko",
+        "text": {
+          "text": "Amoeba Music, Haight Street, San Francisco, CA, USA",
+          "matches": [
+            {
+              "endOffset": 6
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "Amoeba Music",
+            "matches": [
+              {
+                "endOffset": 6
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "Haight Street, San Francisco, CA, USA"
+          }
+        },
+        "types": [
+          "electronics_store",
+          "point_of_interest",
+          "store",
+          "establishment",
+          "home_goods_store"
+        ]
+      }
+    },
+    {
+      "placePrediction": {
+        "place": "places/ChIJr7uwwy58hYARBY-e7-QVwqw",
+        "placeId": "ChIJr7uwwy58hYARBY-e7-QVwqw",
+        "text": {
+          "text": "Amoeba Music, Telegraph Avenue, Berkeley, CA, USA",
+          "matches": [
+            {
+              "endOffset": 6
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "Amoeba Music",
+            "matches": [
+              {
+                "endOffset": 6
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "Telegraph Avenue, Berkeley, CA, USA"
+          }
+        },
+        "types": [
+          "electronics_store",
+          "point_of_interest",
+          "establishment",
+          "home_goods_store",
+          "store"
+        ]
+      }
+    }
+  ]
+}

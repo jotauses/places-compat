@@ -1,0 +1,620 @@
+[
+  {
+    "step": 0,
+    "label": "type \"San Francisco\"",
+    "settled": {
+      "renderArg": {
+        "loading": false,
+        "suggestions": []
+      },
+      "inputProps": {
+        "type": "text",
+        "autoComplete": "off",
+        "role": "combobox",
+        "aria-autocomplete": "list",
+        "aria-expanded": false,
+        "aria-activedescendant": "[undefined]",
+        "disabled": false,
+        "onKeyDown": "[fn]",
+        "onBlur": "[fn]",
+        "value": "San Francisco",
+        "onChange": "[fn]"
+      },
+      "itemProps": []
+    },
+    "loading": [false],
+    "callbacks": [
+      {
+        "name": "onChange",
+        "args": ["San Francisco"]
+      }
+    ],
+    "console": []
+  },
+  {
+    "step": 1,
+    "label": "advance 200",
+    "settled": {
+      "renderArg": {
+        "loading": false,
+        "suggestions": [
+          {
+            "id": "[undefined]",
+            "description": "San Francisco, CA, USA",
+            "placeId": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+            "active": false,
+            "index": 0,
+            "formattedSuggestion": {
+              "mainText": "San Francisco",
+              "secondaryText": "CA, USA"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 13,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "San Francisco"
+              },
+              {
+                "offset": 15,
+                "value": "CA"
+              },
+              {
+                "offset": 19,
+                "value": "USA"
+              }
+            ],
+            "types": ["locality", "political", "geocode"]
+          },
+          {
+            "id": "[undefined]",
+            "description": "San Francisco International Airport (SFO), San Francisco, CA, USA",
+            "placeId": "ChIJVVVVVYx3j4ARP-3NGldc8qQ",
+            "active": false,
+            "index": 1,
+            "formattedSuggestion": {
+              "mainText": "San Francisco International Airport (SFO)",
+              "secondaryText": "San Francisco, CA, USA"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 13,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "San Francisco International Airport (SFO)"
+              },
+              {
+                "offset": 43,
+                "value": "San Francisco"
+              },
+              {
+                "offset": 58,
+                "value": "CA"
+              },
+              {
+                "offset": 62,
+                "value": "USA"
+              }
+            ],
+            "types": ["establishment"]
+          },
+          {
+            "id": "[undefined]",
+            "description": "Coacalco, State of Mexico, Mexico",
+            "placeId": "ChIJmz3ukEbx0YUR_iiKUJOxHUA",
+            "active": false,
+            "index": 2,
+            "formattedSuggestion": {
+              "mainText": "Coacalco",
+              "secondaryText": "State of Mexico, Mexico"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 8,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "Coacalco"
+              },
+              {
+                "offset": 10,
+                "value": "State of Mexico"
+              },
+              {
+                "offset": 27,
+                "value": "Mexico"
+              }
+            ],
+            "types": ["locality", "political", "geocode"]
+          },
+          {
+            "id": "[undefined]",
+            "description": "San Francisco Int'l Airport Station, San Francisco, CA, USA",
+            "placeId": "ChIJVVVVVYx3j4ARyN7qnq2JceQ",
+            "active": false,
+            "index": 3,
+            "formattedSuggestion": {
+              "mainText": "San Francisco Int'l Airport Station",
+              "secondaryText": "San Francisco, CA, USA"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 13,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "San Francisco Int'l Airport Station"
+              },
+              {
+                "offset": 37,
+                "value": "San Francisco"
+              },
+              {
+                "offset": 52,
+                "value": "CA"
+              },
+              {
+                "offset": 56,
+                "value": "USA"
+              }
+            ],
+            "types": ["transit_station", "point_of_interest", "establishment", "geocode"]
+          },
+          {
+            "id": "[undefined]",
+            "description": "San Francisco del Rincón, Guanajuato, Mexico",
+            "placeId": "ChIJ3bwFNq7DK4QR1ZorLLDndeA",
+            "active": false,
+            "index": 4,
+            "formattedSuggestion": {
+              "mainText": "San Francisco del Rincón",
+              "secondaryText": "Guanajuato, Mexico"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 13,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "San Francisco del Rincón"
+              },
+              {
+                "offset": 26,
+                "value": "Guanajuato"
+              },
+              {
+                "offset": 38,
+                "value": "Mexico"
+              }
+            ],
+            "types": ["locality", "political", "geocode"]
+          }
+        ]
+      },
+      "inputProps": {
+        "type": "text",
+        "autoComplete": "off",
+        "role": "combobox",
+        "aria-autocomplete": "list",
+        "aria-expanded": true,
+        "aria-activedescendant": "[undefined]",
+        "disabled": false,
+        "onKeyDown": "[fn]",
+        "onBlur": "[fn]",
+        "value": "San Francisco",
+        "onChange": "[fn]"
+      },
+      "itemProps": [
+        {
+          "key": "[undefined]",
+          "id": "[undefined]",
+          "role": "option",
+          "onMouseEnter": "[fn]",
+          "onMouseLeave": "[fn]",
+          "onMouseDown": "[fn]",
+          "onMouseUp": "[fn]",
+          "onTouchStart": "[fn]",
+          "onTouchEnd": "[fn]",
+          "onClick": "[fn]"
+        },
+        {
+          "key": "[undefined]",
+          "id": "[undefined]",
+          "role": "option",
+          "onMouseEnter": "[fn]",
+          "onMouseLeave": "[fn]",
+          "onMouseDown": "[fn]",
+          "onMouseUp": "[fn]",
+          "onTouchStart": "[fn]",
+          "onTouchEnd": "[fn]",
+          "onClick": "[fn]"
+        },
+        {
+          "key": "[undefined]",
+          "id": "[undefined]",
+          "role": "option",
+          "onMouseEnter": "[fn]",
+          "onMouseLeave": "[fn]",
+          "onMouseDown": "[fn]",
+          "onMouseUp": "[fn]",
+          "onTouchStart": "[fn]",
+          "onTouchEnd": "[fn]",
+          "onClick": "[fn]"
+        },
+        {
+          "key": "[undefined]",
+          "id": "[undefined]",
+          "role": "option",
+          "onMouseEnter": "[fn]",
+          "onMouseLeave": "[fn]",
+          "onMouseDown": "[fn]",
+          "onMouseUp": "[fn]",
+          "onTouchStart": "[fn]",
+          "onTouchEnd": "[fn]",
+          "onClick": "[fn]"
+        },
+        {
+          "key": "[undefined]",
+          "id": "[undefined]",
+          "role": "option",
+          "onMouseEnter": "[fn]",
+          "onMouseLeave": "[fn]",
+          "onMouseDown": "[fn]",
+          "onMouseUp": "[fn]",
+          "onTouchStart": "[fn]",
+          "onTouchEnd": "[fn]",
+          "onClick": "[fn]"
+        }
+      ]
+    },
+    "loading": [true, false],
+    "callbacks": [],
+    "console": []
+  },
+  {
+    "step": 2,
+    "label": "key ArrowDown",
+    "settled": {
+      "renderArg": {
+        "loading": false,
+        "suggestions": [
+          {
+            "id": "[undefined]",
+            "description": "San Francisco, CA, USA",
+            "placeId": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+            "active": true,
+            "index": 0,
+            "formattedSuggestion": {
+              "mainText": "San Francisco",
+              "secondaryText": "CA, USA"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 13,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "San Francisco"
+              },
+              {
+                "offset": 15,
+                "value": "CA"
+              },
+              {
+                "offset": 19,
+                "value": "USA"
+              }
+            ],
+            "types": ["locality", "political", "geocode"]
+          },
+          {
+            "id": "[undefined]",
+            "description": "San Francisco International Airport (SFO), San Francisco, CA, USA",
+            "placeId": "ChIJVVVVVYx3j4ARP-3NGldc8qQ",
+            "active": false,
+            "index": 1,
+            "formattedSuggestion": {
+              "mainText": "San Francisco International Airport (SFO)",
+              "secondaryText": "San Francisco, CA, USA"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 13,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "San Francisco International Airport (SFO)"
+              },
+              {
+                "offset": 43,
+                "value": "San Francisco"
+              },
+              {
+                "offset": 58,
+                "value": "CA"
+              },
+              {
+                "offset": 62,
+                "value": "USA"
+              }
+            ],
+            "types": ["establishment"]
+          },
+          {
+            "id": "[undefined]",
+            "description": "Coacalco, State of Mexico, Mexico",
+            "placeId": "ChIJmz3ukEbx0YUR_iiKUJOxHUA",
+            "active": false,
+            "index": 2,
+            "formattedSuggestion": {
+              "mainText": "Coacalco",
+              "secondaryText": "State of Mexico, Mexico"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 8,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "Coacalco"
+              },
+              {
+                "offset": 10,
+                "value": "State of Mexico"
+              },
+              {
+                "offset": 27,
+                "value": "Mexico"
+              }
+            ],
+            "types": ["locality", "political", "geocode"]
+          },
+          {
+            "id": "[undefined]",
+            "description": "San Francisco Int'l Airport Station, San Francisco, CA, USA",
+            "placeId": "ChIJVVVVVYx3j4ARyN7qnq2JceQ",
+            "active": false,
+            "index": 3,
+            "formattedSuggestion": {
+              "mainText": "San Francisco Int'l Airport Station",
+              "secondaryText": "San Francisco, CA, USA"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 13,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "San Francisco Int'l Airport Station"
+              },
+              {
+                "offset": 37,
+                "value": "San Francisco"
+              },
+              {
+                "offset": 52,
+                "value": "CA"
+              },
+              {
+                "offset": 56,
+                "value": "USA"
+              }
+            ],
+            "types": ["transit_station", "point_of_interest", "establishment", "geocode"]
+          },
+          {
+            "id": "[undefined]",
+            "description": "San Francisco del Rincón, Guanajuato, Mexico",
+            "placeId": "ChIJ3bwFNq7DK4QR1ZorLLDndeA",
+            "active": false,
+            "index": 4,
+            "formattedSuggestion": {
+              "mainText": "San Francisco del Rincón",
+              "secondaryText": "Guanajuato, Mexico"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 13,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "San Francisco del Rincón"
+              },
+              {
+                "offset": 26,
+                "value": "Guanajuato"
+              },
+              {
+                "offset": 38,
+                "value": "Mexico"
+              }
+            ],
+            "types": ["locality", "political", "geocode"]
+          }
+        ]
+      },
+      "inputProps": {
+        "type": "text",
+        "autoComplete": "off",
+        "role": "combobox",
+        "aria-autocomplete": "list",
+        "aria-expanded": true,
+        "aria-activedescendant": "PlacesAutocomplete__suggestion-ChIJIQBpAG2ahYAR_6128GcTUEo",
+        "disabled": false,
+        "onKeyDown": "[fn]",
+        "onBlur": "[fn]",
+        "value": "San Francisco, CA, USA",
+        "onChange": "[fn]"
+      },
+      "itemProps": [
+        {
+          "key": "[undefined]",
+          "id": "PlacesAutocomplete__suggestion-ChIJIQBpAG2ahYAR_6128GcTUEo",
+          "role": "option",
+          "onMouseEnter": "[fn]",
+          "onMouseLeave": "[fn]",
+          "onMouseDown": "[fn]",
+          "onMouseUp": "[fn]",
+          "onTouchStart": "[fn]",
+          "onTouchEnd": "[fn]",
+          "onClick": "[fn]"
+        },
+        {
+          "key": "[undefined]",
+          "id": "PlacesAutocomplete__suggestion-ChIJIQBpAG2ahYAR_6128GcTUEo",
+          "role": "option",
+          "onMouseEnter": "[fn]",
+          "onMouseLeave": "[fn]",
+          "onMouseDown": "[fn]",
+          "onMouseUp": "[fn]",
+          "onTouchStart": "[fn]",
+          "onTouchEnd": "[fn]",
+          "onClick": "[fn]"
+        },
+        {
+          "key": "[undefined]",
+          "id": "PlacesAutocomplete__suggestion-ChIJIQBpAG2ahYAR_6128GcTUEo",
+          "role": "option",
+          "onMouseEnter": "[fn]",
+          "onMouseLeave": "[fn]",
+          "onMouseDown": "[fn]",
+          "onMouseUp": "[fn]",
+          "onTouchStart": "[fn]",
+          "onTouchEnd": "[fn]",
+          "onClick": "[fn]"
+        },
+        {
+          "key": "[undefined]",
+          "id": "PlacesAutocomplete__suggestion-ChIJIQBpAG2ahYAR_6128GcTUEo",
+          "role": "option",
+          "onMouseEnter": "[fn]",
+          "onMouseLeave": "[fn]",
+          "onMouseDown": "[fn]",
+          "onMouseUp": "[fn]",
+          "onTouchStart": "[fn]",
+          "onTouchEnd": "[fn]",
+          "onClick": "[fn]"
+        },
+        {
+          "key": "[undefined]",
+          "id": "PlacesAutocomplete__suggestion-ChIJIQBpAG2ahYAR_6128GcTUEo",
+          "role": "option",
+          "onMouseEnter": "[fn]",
+          "onMouseLeave": "[fn]",
+          "onMouseDown": "[fn]",
+          "onMouseUp": "[fn]",
+          "onTouchStart": "[fn]",
+          "onTouchEnd": "[fn]",
+          "onClick": "[fn]"
+        }
+      ]
+    },
+    "loading": [false],
+    "callbacks": [
+      {
+        "name": "onChange",
+        "args": ["San Francisco, CA, USA"]
+      }
+    ],
+    "console": []
+  },
+  {
+    "step": 3,
+    "label": "key Enter",
+    "settled": {
+      "renderArg": {
+        "loading": false,
+        "suggestions": []
+      },
+      "inputProps": {
+        "type": "text",
+        "autoComplete": "off",
+        "role": "combobox",
+        "aria-autocomplete": "list",
+        "aria-expanded": false,
+        "aria-activedescendant": "[undefined]",
+        "disabled": false,
+        "onKeyDown": "[fn]",
+        "onBlur": "[fn]",
+        "value": "San Francisco, CA, USA",
+        "onChange": "[fn]"
+      },
+      "itemProps": []
+    },
+    "loading": [false],
+    "callbacks": [
+      {
+        "name": "onSelect",
+        "args": [
+          "San Francisco, CA, USA",
+          "ChIJIQBpAG2ahYAR_6128GcTUEo",
+          {
+            "id": "[undefined]",
+            "description": "San Francisco, CA, USA",
+            "placeId": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+            "active": true,
+            "index": 0,
+            "formattedSuggestion": {
+              "mainText": "San Francisco",
+              "secondaryText": "CA, USA"
+            },
+            "matchedSubstrings": [
+              {
+                "length": 13,
+                "offset": 0
+              }
+            ],
+            "terms": [
+              {
+                "offset": 0,
+                "value": "San Francisco"
+              },
+              {
+                "offset": 15,
+                "value": "CA"
+              },
+              {
+                "offset": 19,
+                "value": "USA"
+              }
+            ],
+            "types": ["locality", "political", "geocode"]
+          }
+        ]
+      }
+    ],
+    "console": []
+  }
+]

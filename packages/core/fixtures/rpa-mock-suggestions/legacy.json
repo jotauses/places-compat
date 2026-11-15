@@ -1,0 +1,207 @@
+{
+  "predictions": [
+    {
+      "description": "San Francisco, CA, USA",
+      "matched_substrings": [
+        {
+          "length": 13,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+      "structured_formatting": {
+        "main_text": "San Francisco",
+        "main_text_matched_substrings": [
+          {
+            "length": 13,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "CA, USA"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "San Francisco"
+        },
+        {
+          "offset": 15,
+          "value": "CA"
+        },
+        {
+          "offset": 19,
+          "value": "USA"
+        }
+      ],
+      "types": [
+        "locality",
+        "political",
+        "geocode"
+      ]
+    },
+    {
+      "description": "San Francisco International Airport (SFO), San Francisco, CA, USA",
+      "matched_substrings": [
+        {
+          "length": 13,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJVVVVVYx3j4ARP-3NGldc8qQ",
+      "structured_formatting": {
+        "main_text": "San Francisco International Airport (SFO)",
+        "main_text_matched_substrings": [
+          {
+            "length": 13,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "San Francisco, CA, USA"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "San Francisco International Airport (SFO)"
+        },
+        {
+          "offset": 43,
+          "value": "San Francisco"
+        },
+        {
+          "offset": 58,
+          "value": "CA"
+        },
+        {
+          "offset": 62,
+          "value": "USA"
+        }
+      ],
+      "types": [
+        "establishment"
+      ]
+    },
+    {
+      "description": "Coacalco, State of Mexico, Mexico",
+      "matched_substrings": [
+        {
+          "length": 8,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJmz3ukEbx0YUR_iiKUJOxHUA",
+      "structured_formatting": {
+        "main_text": "Coacalco",
+        "main_text_matched_substrings": [
+          {
+            "length": 8,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "State of Mexico, Mexico"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Coacalco"
+        },
+        {
+          "offset": 10,
+          "value": "State of Mexico"
+        },
+        {
+          "offset": 27,
+          "value": "Mexico"
+        }
+      ],
+      "types": [
+        "locality",
+        "political",
+        "geocode"
+      ]
+    },
+    {
+      "description": "San Francisco Int'l Airport Station, San Francisco, CA, USA",
+      "matched_substrings": [
+        {
+          "length": 13,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJVVVVVYx3j4ARyN7qnq2JceQ",
+      "structured_formatting": {
+        "main_text": "San Francisco Int'l Airport Station",
+        "main_text_matched_substrings": [
+          {
+            "length": 13,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "San Francisco, CA, USA"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "San Francisco Int'l Airport Station"
+        },
+        {
+          "offset": 37,
+          "value": "San Francisco"
+        },
+        {
+          "offset": 52,
+          "value": "CA"
+        },
+        {
+          "offset": 56,
+          "value": "USA"
+        }
+      ],
+      "types": [
+        "transit_station",
+        "point_of_interest",
+        "establishment",
+        "geocode"
+      ]
+    },
+    {
+      "description": "San Francisco del Rincón, Guanajuato, Mexico",
+      "matched_substrings": [
+        {
+          "length": 13,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJ3bwFNq7DK4QR1ZorLLDndeA",
+      "structured_formatting": {
+        "main_text": "San Francisco del Rincón",
+        "main_text_matched_substrings": [
+          {
+            "length": 13,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Guanajuato, Mexico"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "San Francisco del Rincón"
+        },
+        {
+          "offset": 26,
+          "value": "Guanajuato"
+        },
+        {
+          "offset": 38,
+          "value": "Mexico"
+        }
+      ],
+      "types": [
+        "locality",
+        "political",
+        "geocode"
+      ]
+    }
+  ],
+  "status": "OK"
+}

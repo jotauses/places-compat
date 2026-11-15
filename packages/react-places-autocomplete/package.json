@@ -1,0 +1,85 @@
+{
+  "name": "@places-compat/react-places-autocomplete",
+  "version": "0.0.0",
+  "description": "Replacement for react-places-autocomplete 7.3.0 that runs on the Places API (New).",
+  "keywords": [
+    "react",
+    "react-component",
+    "google-maps",
+    "places",
+    "places-api",
+    "autocomplete",
+    "react-places-autocomplete"
+  ],
+  "license": "MIT",
+  "author": "Joaquín (https://github.com/jotauses)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotauses/places-compat.git",
+    "directory": "packages/react-places-autocomplete"
+  },
+  "homepage": "https://github.com/jotauses/places-compat/tree/main/packages/react-places-autocomplete#readme",
+  "bugs": {
+    "url": "https://github.com/jotauses/places-compat/issues"
+  },
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "biome ci src test tsconfig.json test/types/tsconfig.json tsdown.config.ts vitest.config.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --coverage",
+    "test:nocov": "vitest run",
+    "test:types": "node ../../scripts/test-types.mjs",
+    "build": "tsdown && node ../../scripts/copy-dts.mjs",
+    "check:dist": "node ../../scripts/check-dist.mjs",
+    "check:tarball": "node ../../scripts/check-tarball.mjs",
+    "check:differences": "node ../../scripts/check-docs.mjs differences",
+    "verify": "pnpm lint && pnpm typecheck && pnpm test && pnpm test:types && pnpm build && pnpm check:dist && pnpm check:tarball && pnpm check:differences"
+  },
+  "dependencies": {
+    "@types/google.maps": "*",
+    "prop-types": "^15.5.8"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "publishConfig": {
+    "registry": "http://127.0.0.1:4873"
+  },
+  "devDependencies": {
+    "@places-compat/core": "workspace:*",
+    "@testing-library/dom": "10.4.2",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/react-hooks": "8.0.1",
+    "@testing-library/user-event": "14.6.10",
+    "@types/google.maps": "3.66.10",
+    "@types/prop-types": "15.7.15",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/react-places-autocomplete": "7.2.14",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "upstream-rpa": "npm:react-places-autocomplete@7.3.0"
+  }
+}

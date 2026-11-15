@@ -1,0 +1,133 @@
+{
+  "id": "synthetic-details-full",
+  "addressComponents": [
+    {
+      "longText": "1",
+      "shortText": "1",
+      "types": [
+        "street_number"
+      ]
+    },
+    {
+      "longText": "Example Street",
+      "shortText": "Example St",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "longText": "Sampletown",
+      "shortText": null,
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  "adrFormatAddress": "<span class=\"street-address\">1 Example St</span>, <span class=\"locality\">Sampletown</span>",
+  "formattedAddress": "1 Example St, Sampletown",
+  "location": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "viewport": {
+    "south": 40.4154,
+    "west": -3.7052,
+    "north": 40.4182,
+    "east": -3.7024
+  },
+  "plusCode": {
+    "globalCode": "8CGRC78W+PG",
+    "compoundCode": "C78W+PG Sampletown"
+  },
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "photos": [
+    {
+      "heightPx": 600,
+      "widthPx": 800,
+      "authorAttributions": [
+        {
+          "displayName": "Photo Author",
+          "uri": "https://example.com/photo-author",
+          "photoURI": "https://example.com/photo-author.png"
+        },
+        {
+          "displayName": "Anonymous Author"
+        }
+      ]
+    }
+  ],
+  "displayName": "Example Cafe",
+  "businessStatus": "OPERATIONAL",
+  "utcOffsetMinutes": 60,
+  "iconBackgroundColor": "#FF9E67",
+  "svgIconMaskURI": "https://example.com/icons/cafe_pinlet",
+  "regularOpeningHours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 17,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 5
+        },
+        "close": {
+          "day": 2,
+          "hour": 17,
+          "minute": 30
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM - 5:30 PM",
+      "Tuesday: 8:05 AM - 5:30 PM"
+    ]
+  },
+  "priceLevel": "MODERATE",
+  "rating": 4.5,
+  "userRatingCount": 128,
+  "websiteURI": "https://example.com/",
+  "internationalPhoneNumber": "+34 910 00 00 00",
+  "nationalPhoneNumber": "910 00 00 00",
+  "reviews": [
+    {
+      "authorAttribution": {
+        "displayName": "Reviewer One",
+        "uri": "https://example.com/reviewer-one",
+        "photoURI": "https://example.com/reviewer-one.png"
+      },
+      "rating": 5,
+      "relativePublishTimeDescription": "a month ago",
+      "text": "Good coffee.",
+      "textLanguageCode": "en",
+      "publishTime": "2024-05-01T12:00:00Z"
+    }
+  ],
+  "googleMapsURI": "https://maps.example.com/?cid=1",
+  "shortFormattedAddress": "1 Example St",
+  "attributions": [
+    {
+      "provider": "Example Provider",
+      "providerURI": "https://example.com/provider"
+    },
+    {
+      "provider": "Plain Provider"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "suggestions": [
+    {
+      "placePrediction": {
+        "place": "places/ChIJIQBpAG2ahYAR_6128GcTUEo",
+        "placeId": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+        "text": {
+          "text": "San Francisco, CA, USA",
+          "matches": [
+            {
+              "endOffset": 13
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "San Francisco",
+            "matches": [
+              {
+                "endOffset": 13
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "CA, USA"
+          }
+        },
+        "types": [
+          "locality",
+          "political",
+          "geocode"
+        ]
+      }
+    },
+    {
+      "placePrediction": {
+        "place": "places/ChIJVVVVVYx3j4ARP-3NGldc8qQ",
+        "placeId": "ChIJVVVVVYx3j4ARP-3NGldc8qQ",
+        "text": {
+          "text": "San Francisco International Airport (SFO), San Francisco, CA, USA",
+          "matches": [
+            {
+              "endOffset": 13
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "San Francisco International Airport (SFO)",
+            "matches": [
+              {
+                "endOffset": 13
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "San Francisco, CA, USA"
+          }
+        },
+        "types": [
+          "establishment"
+        ]
+      }
+    },
+    {
+      "placePrediction": {
+        "place": "places/ChIJmz3ukEbx0YUR_iiKUJOxHUA",
+        "placeId": "ChIJmz3ukEbx0YUR_iiKUJOxHUA",
+        "text": {
+          "text": "Coacalco, State of Mexico, Mexico",
+          "matches": [
+            {
+              "endOffset": 8
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "Coacalco",
+            "matches": [
+              {
+                "endOffset": 8
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "State of Mexico, Mexico"
+          }
+        },
+        "types": [
+          "locality",
+          "political",
+          "geocode"
+        ]
+      }
+    },
+    {
+      "placePrediction": {
+        "place": "places/ChIJVVVVVYx3j4ARyN7qnq2JceQ",
+        "placeId": "ChIJVVVVVYx3j4ARyN7qnq2JceQ",
+        "text": {
+          "text": "San Francisco Int'l Airport Station, San Francisco, CA, USA",
+          "matches": [
+            {
+              "endOffset": 13
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "San Francisco Int'l Airport Station",
+            "matches": [
+              {
+                "endOffset": 13
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "San Francisco, CA, USA"
+          }
+        },
+        "types": [
+          "transit_station",
+          "point_of_interest",
+          "establishment",
+          "geocode"
+        ]
+      }
+    },
+    {
+      "placePrediction": {
+        "place": "places/ChIJ3bwFNq7DK4QR1ZorLLDndeA",
+        "placeId": "ChIJ3bwFNq7DK4QR1ZorLLDndeA",
+        "text": {
+          "text": "San Francisco del Rincón, Guanajuato, Mexico",
+          "matches": [
+            {
+              "endOffset": 13
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "San Francisco del Rincón",
+            "matches": [
+              {
+                "endOffset": 13
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "Guanajuato, Mexico"
+          }
+        },
+        "types": [
+          "locality",
+          "political",
+          "geocode"
+        ]
+      }
+    }
+  ]
+}

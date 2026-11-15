@@ -1,0 +1,52 @@
+{
+  "id": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+  "addressComponents": [
+    {
+      "longText": "San Francisco",
+      "shortText": "SF",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "longText": "San Francisco County",
+      "shortText": "San Francisco County",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "longText": "California",
+      "shortText": "CA",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "longText": "United States",
+      "shortText": "US",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ],
+  "formattedAddress": "San Francisco, CA, USA",
+  "location": {
+    "lat": 37.7749295,
+    "lng": -122.41941550000001
+  },
+  "viewport": {
+    "south": 37.70339999999999,
+    "west": -122.52699999999999,
+    "north": 37.812,
+    "east": -122.34820000000002
+  },
+  "types": [
+    "locality",
+    "political"
+  ]
+}

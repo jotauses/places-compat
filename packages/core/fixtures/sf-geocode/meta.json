@@ -1,0 +1,7 @@
+{
+  "source": "react-places-autocomplete 7.3.0, src/tests/helpers/googlePayloads.js (GEOCODE_RESULT)",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2016 Ken Hibino",
+  "derived": "new",
+  "notes": "geocode.json is the GEOCODE_RESULT[\"San Francisco\"] array, copied verbatim. The legacy prediction for input \"San Francisco\" and details.legacy.json are built from that result (formatted_address, place_id, types, address_components, location and viewport; bounds and location_type have no PlaceResult field). The new prediction and details.new.json are derived with toLegacyPrediction and toLegacyPlaceResult."
+}

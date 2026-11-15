@@ -1,0 +1,35 @@
+{
+  "suggestions": [
+    {
+      "placePrediction": {
+        "place": "places/ChIJIQBpAG2ahYAR_6128GcTUEo",
+        "placeId": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+        "text": {
+          "text": "San Francisco, CA, USA",
+          "matches": [
+            {
+              "endOffset": 13
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "San Francisco",
+            "matches": [
+              {
+                "endOffset": 13
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "CA, USA"
+          }
+        },
+        "types": [
+          "locality",
+          "political"
+        ]
+      }
+    }
+  ]
+}

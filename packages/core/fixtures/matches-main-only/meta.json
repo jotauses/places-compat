@@ -1,0 +1,7 @@
+{
+  "source": "Synthetic data written for this project",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Joaquín",
+  "derived": "legacy",
+  "notes": "text.matches is empty and mainText.matches is not, so the derived matched_substrings come from mainText (CORE-08). The second range has a startOffset to cover the offset conversion. No details."
+}

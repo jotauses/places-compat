@@ -1,0 +1,38 @@
+{
+  "suggestions": [
+    {
+      "placePrediction": {
+        "place": "places/synthetic-details-full",
+        "placeId": "synthetic-details-full",
+        "text": {
+          "text": "Example Cafe, 1 Example St, Sampletown",
+          "matches": [
+            {
+              "endOffset": 7
+            }
+          ]
+        },
+        "structuredFormat": {
+          "mainText": {
+            "text": "Example Cafe",
+            "matches": [
+              {
+                "endOffset": 7
+              }
+            ]
+          },
+          "secondaryText": {
+            "text": "1 Example St, Sampletown"
+          }
+        },
+        "types": [
+          "cafe",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "distanceMeters": 120
+      }
+    }
+  ]
+}
