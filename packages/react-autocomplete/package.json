@@ -1,6 +1,6 @@
 {
   "name": "@places-compat/react-autocomplete",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Replacement for react-google-autocomplete 2.7.5 that runs on the Places API (New).",
   "keywords": [
     "react",
@@ -147,7 +147,7 @@
     "react": ">=16.8.0"
   },
   "publishConfig": {
-    "registry": "http://127.0.0.1:4873"
+    "access": "public"
   },
   "devDependencies": {
     "@places-compat/core": "workspace:*",

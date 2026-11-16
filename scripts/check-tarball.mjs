@@ -16,7 +16,6 @@ const packagesDir = join(repoRoot, 'packages');
 const repoRequire = createRequire(join(repoRoot, 'package.json'));
 const keepTmp = process.env.KEEP_TMP === '1';
 
-const REGISTRY = 'http://127.0.0.1:4873';
 const REPO_FILES = ['package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml'];
 const REQUIRED_FILES = ['LICENSE', 'THIRD_PARTY_NOTICES.md', 'README.md'];
 const DEPENDENCY_FIELDS = [
@@ -284,8 +283,11 @@ function tsconfigFor(module, moduleResolution, typesFromDependency) {
 async function checkPackage(pkg, tmpRoot) {
   const problems = [];
   const versioned = JSON.parse(await readFile(join(pkg.dir, 'package.json'), 'utf8'));
-  if (versioned.publishConfig?.registry !== REGISTRY) {
-    problems.push(`package.json publishConfig.registry must be "${REGISTRY}"`);
+  if (versioned.publishConfig?.registry !== undefined) {
+    problems.push('package.json publishConfig must not set a registry');
+  }
+  if (versioned.publishConfig?.access !== 'public') {
+    problems.push('package.json publishConfig.access must be "public"');
   }
   const alias = ORIGINAL_NAMES[pkg.name];
   if (!alias) return [...problems, 'no original package name is configured for this library'];

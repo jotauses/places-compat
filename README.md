@@ -16,7 +16,7 @@ Each package README has a "Differences from the original" table that lists every
 
 ## Status
 
-In development. Nothing has been published.
+Version 0.1.0 is the first release on npm. The tests use a fake of the Places API (New) and have not yet run against Google's live service. If a package behaves differently from its original, please open an issue.
 
 ## Before you switch
 
@@ -130,7 +130,7 @@ Add a changeset for every change a package user would notice:
 pnpm exec changeset
 ```
 
-It asks which packages changed and the bump type of each, and writes a file to `.changeset/`. Commit that file with the change, with one plain sentence for the changelog that says what changed for the user. The core package is private and never released on its own, so when a change to the core affects a library, add the changeset for that library. Publishing is not set up in this repository.
+It asks which packages changed and the bump type of each, and writes a file to `.changeset/`. Commit that file with the change, with one plain sentence that says what changed for the user. The core package is private and never released on its own, so when a change to the core affects a library, add the changeset for that library. Releases are published by hand, not from CI.
 
 ## Google Maps Platform
 
