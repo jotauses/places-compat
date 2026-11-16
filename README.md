@@ -14,10 +14,6 @@ Each package README has a "Differences from the original" table that lists every
 - [react-places-autocomplete](packages/react-places-autocomplete/README.md#differences-from-the-original)
 - [react-autocomplete](packages/react-autocomplete/README.md#differences-from-the-original)
 
-## Status
-
-Version 0.1.0 is the first release on npm. The tests use a fake of the Places API (New) and have not yet run against Google's live service. If a package behaves differently from its original, please open an issue.
-
 ## Before you switch
 
 Enable Places API (New) in the Google Cloud project that owns your API key. The packages only call the new API and have no fallback to the legacy Places API, so a project with only the legacy API enabled gets errors instead of predictions.
